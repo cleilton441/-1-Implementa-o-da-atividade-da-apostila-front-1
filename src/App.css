@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(26, 26, 194);
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58.5rem;
+ 
+}
+.content{
+  height: 30rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input{
+  display: flex;
+}
+
+.content > p{
+  margin-top: 1.5rem;
+  color: white;
+  font-size: 3rem;
+}

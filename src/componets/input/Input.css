@@ -1,0 +1,31 @@
+.num1{
+background-color: rgb(61, 153, 233);
+color: white;
+font-size: 60px;
+text-align: center;
+width: 14rem;
+margin: 10px;
+border-radius: 10px;
+border: none;
+}
+.input :focus{
+    outline: 2px solid #4E9EB2;
+}
+
+@media (max-width: 425px){
+    .num1{
+      width: 12rem;
+    }
+  }
+
+@media (max-width: 375px){
+    .num1{
+      width: 10rem;
+    }
+  }
+
+@media (max-width: 320px){
+    .num1{
+      width: 9rem;
+    }
+  }
